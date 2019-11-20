@@ -1,0 +1,55 @@
+20 utils.middleware 2019-11-19 12:04:43,139 /app4/stus/ <QueryDict: {'page': ['3']}> 0:00:00.072803 200 b'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>Title</title>\n</head>\n<body>\n    <table>\n        <thead>\n        <th>ID</th>\n        <th>\xe5\xa7\x93\xe5\x90\x8d</th>\n        <th>\xe5\xb9\xb4\xe9\xbe\x84</th>\n        <th>\xe7\x8f\xad\xe7\xba\xa7</th>\n        <th>\xe8\xaf\xbe\xe7\xa8\x8b</th>\n        <th>\xe4\xbd\x8f\xe5\x9d\x80</th>\n        </thead>\n        <tbdoy>\n            \n            <tr>\n                <td>17</td>\n                <td>\xe5\x80\xa9\xe5\x80\xa9</td>\n                <td>16</td>\n                <td>html</td>\n                <td>\n                    \n                </td>\n                <td>\xe9\x87\x8d\xe5\xba\x86</td>\n            </tr>\n            \n        </tbdoy>\n    </table>\n        <p>\n            \xe5\xbd\x93\xe5\x89\x8d 3\xe9\xa1\xb5\n            \xe6\x80\xbb\xe5\x85\xb1 3\xe9\xa1\xb5\n            \xe5\x85\xb17\xe6\x9d\xa1\n\n            \n                <a href="/app4/stus/?page=2">\xe4\xb8\x8a\xe4\xb8\x80\xe9\xa1\xb5</a>\n            \n\n            \n                <a href="/app4/stus/?page=1">1</a>\n            \n                <a href="/app4/stus/?page=2">2</a>\n            \n                <a href="/app4/stus/?page=3">3</a>\n            \n\n            \n        </p>\n</body>\n</html>'
+20 utils.middleware 2019-11-19 12:04:48,919 /app4/stus/ <QueryDict: {'page': ['2']}> 0:00:00.017508 200 b'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>Title</title>\n</head>\n<body>\n    <table>\n        <thead>\n        <th>ID</th>\n        <th>\xe5\xa7\x93\xe5\x90\x8d</th>\n        <th>\xe5\xb9\xb4\xe9\xbe\x84</th>\n        <th>\xe7\x8f\xad\xe7\xba\xa7</th>\n        <th>\xe8\xaf\xbe\xe7\xa8\x8b</th>\n        <th>\xe4\xbd\x8f\xe5\x9d\x80</th>\n        </thead>\n        <tbdoy>\n            \n            <tr>\n                <td>4</td>\n                <td>\xe7\x8e\x8b\xe4\xbc\x9f</td>\n                <td>12</td>\n                <td>python3</td>\n                <td>\n                    \n                </td>\n                <td>qq</td>\n            </tr>\n            \n            <tr>\n                <td>5</td>\n                <td>\xe4\xba\xae\xe5\x8f\xb8</td>\n                <td>22</td>\n                <td>python4</td>\n                <td>\n                    \n                </td>\n                <td>ee</td>\n            </tr>\n            \n            <tr>\n                <td>16</td>\n                <td>\xe8\x8a\xb3\xe8\x8a\xb3</td>\n                <td>16</td>\n                <td>html</td>\n                <td>\n                    \n                </td>\n                <td>ff</td>\n            </tr>\n            \n        </tbdoy>\n    </table>\n        <p>\n            \xe5\xbd\x93\xe5\x89\x8d 2\xe9\xa1\xb5\n            \xe6\x80\xbb\xe5\x85\xb1 3\xe9\xa1\xb5\n            \xe5\x85\xb17\xe6\x9d\xa1\n\n            \n                <a href="/app4/stus/?page=1">\xe4\xb8\x8a\xe4\xb8\x80\xe9\xa1\xb5</a>\n            \n\n            \n                <a href="/app4/stus/?page=1">1</a>\n            \n                <a href="/app4/stus/?page=2">2</a>\n            \n                <a href="/app4/stus/?page=3">3</a>\n            \n\n            \n                <a href="/app4/stus/?page=3">\xe4\xb8\x8b\xe4\xb8\x80\xe9\xa1\xb5</a>\n            \n        </p>\n</body>\n</html>'
+20 utils.middleware 2019-11-19 15:00:28,732 /app3/session_login/ <QueryDict: {}> 0:00:00.052507 200 b'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>denglu</title>\n</head>\n<body>\n      <form action="" method="post">\n          <input type="hidden" name="csrfmiddlewaretoken" value="x1fe4TIRMK22zBVT7fmdL96SJkLxmITxB9512cZ2qdUdfGcyaj9BmUKowfQoQXm2">\n          <p>\xe8\xb4\xa6\xe5\x8f\xb7:<input type="text" name="name"></p>\n          <p>\xe5\xaf\x86\xe7\xa0\x81:<input type="password" name="pwd"></p>\n          <p><input type="submit" value="\xe6\x8f\x90\xe4\xba\xa4"></p>\n      </form>\n</body>\n</html>'
+20 utils.middleware 2019-11-19 15:01:40,439 /app3/session_login/ <QueryDict: {}> 0:00:00.002572 200 b'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>denglu</title>\n</head>\n<body>\n      <form action="" method="post">\n          <input type="hidden" name="csrfmiddlewaretoken" value="GDl9DTas1Z04zfcZF0FmuQbh4UzaxiZklGYnpnfoAxlV52A9SI6eL90sIe1rVS6M">\n          <p>\xe8\xb4\xa6\xe5\x8f\xb7:<input type="text" name="name"></p>\n          <p>\xe5\xaf\x86\xe7\xa0\x81:<input type="password" name="pwd"></p>\n          <p><input type="submit" value="\xe6\x8f\x90\xe4\xba\xa4"></p>\n      </form>\n</body>\n</html>'
+20 utils.middleware 2019-11-19 15:02:08,688 /app3/session_login/ <QueryDict: {}> 0:00:00.001625 200 b'<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title>denglu</title>\n</head>\n<body>\n      <form action="" method="post">\n          <input type="hidden" name="csrfmiddlewaretoken" value="jrSXNhnfr7rRtCwqFu3Db6hpqjheewRKIr0gyros4zAk9kh3MDwzBgpgn95FztEj">\n          <p>\xe8\xb4\xa6\xe5\x8f\xb7:<input type="text" name="name"></p>\n          <p>\xe5\xaf\x86\xe7\xa0\x81:<input type="password" name="pwd"></p>\n          <p><input type="submit" value="\xe6\x8f\x90\xe4\xba\xa4"></p>\n      </form>\n</body>\n</html>'
+30 django.request 2019-11-19 15:05:46,547 Not Found: /app5/article/1/
+30 django.request 2019-11-19 15:06:15,563 Not Found: /app5/article/1/
+30 django.request 2019-11-19 15:06:24,557 Method Not Allowed: /app5/article/1/
+40 django.request 2019-11-19 15:06:39,817 Internal Server Error: /app5/article/
+Traceback (most recent call last):
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 430, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 483, in to_internal_value
+    for field in fields:
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 366, in _writable_fields
+    for field in self.fields.values():
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/zhake/venv/djangovenv/lib/python3.6/site-packages/rest_framework/serializers.py", line 1004, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class ArticleSerializer missing "Meta.model" attribute
+30 django.request 2019-11-19 17:29:35,228 Not Found: /
+30 django.request 2019-11-19 17:29:36,104 Not Found: /
+30 django.request 2019-11-19 17:29:36,197 Not Found: /
+30 django.request 2019-11-19 17:29:36,222 Not Found: /
+30 django.request 2019-11-19 17:29:36,306 Not Found: /
+30 django.request 2019-11-19 17:29:37,330 Not Found: /favicon.ico
+30 django.request 2019-11-19 17:29:37,360 Not Found: /favicon.ico
+30 django.request 2019-11-19 17:29:37,415 Not Found: /favicon.ico
+30 django.request 2019-11-19 17:29:37,471 Not Found: /favicon.ico
+30 django.request 2019-11-19 17:29:37,527 Not Found: /favicon.ico

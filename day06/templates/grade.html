@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分配</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>班级:
+            <select name="g" id="">
+                {% for grade in grades %}
+                    <option value="{{ grade.id }}">
+                        {{ grade.g_name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </p>
+        {% for stu in stus %}
+            <p>
+                <input type="checkbox" name="sid" value="{{ stu.id }}">
+                姓名:{{ stu.s_name }}
+                年龄:{{ stu.s_age }}
+                住址:{{ stu.info.s_addr }}
+                电话:{{ stu.info.s_phone }}
+            </p>
+        {% endfor %}
+    <p><input type="submit">提交</p>
+
+    </form>
+</body>
+</html>

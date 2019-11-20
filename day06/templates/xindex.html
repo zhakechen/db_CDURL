@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if user %}
+    <p>当前登录用户：</p>{{ user.username }}
+    {% else %}
+    <p>
+        <a href="/app3/register/">注册</a>
+
+        <a href="/app3/session_login/">登录</a>
+    </p>
+    {% endif %}
+</body>
+</html>

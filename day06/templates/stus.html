@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <th>ID</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>班级</th>
+        <th>课程</th>
+        <th>住址</th>
+        </thead>
+        <tbdoy>
+            {% for stu in stus %}
+            <tr>
+                <td>{{ stu.id }}</td>
+                <td>{{ stu.s_name }}</td>
+                <td>{{ stu.s_age }}</td>
+                <td>{{ stu.g.g_name }}</td>
+                <td>
+                    {% for c in stu.c.all %}
+                    {{ stu.c.all }}
+                    {% endfor %}
+                </td>
+                <td>{{ stu.info.s_addr }}</td>
+            </tr>
+            {% endfor %}
+        </tbdoy>
+    </table>
+        <p>
+            当前 {{ stus.number }}页
+            总共 {{ stus.paginator.num_pages }}页
+            共{{ stus.paginator.count }}条
+
+            {% if stus.has_previous %}
+                <a href="/app4/stus/?page={{ stus.previous_page_number }}">上一页</a>
+            {% endif %}
+
+            {% for i in stus.paginator.page_range %}
+                <a href="/app4/stus/?page={{ i }}">{{ i }}</a>
+            {% endfor %}
+
+            {% if stus.has_next %}
+                <a href="/app4/stus/?page={{ stus.next_page_number }}">下一页</a>
+            {% endif %}
+        </p>
+</body>
+</html>

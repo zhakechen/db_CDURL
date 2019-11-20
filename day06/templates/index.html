@@ -1,0 +1,20 @@
+{% extends 'base_min.html' %}
+{% block title %}
+首页
+{% endblock %}
+
+{% block content %}
+    <p>扎克的首页</p>
+    {% include 'other.html' %}
+    <a href="/appin/params1/12">param1</a>
+    {#  前段反向解析{% url 'namespace:name' 值1 值2  ....%}  #}
+    <a href="{% url 'p2:p1' 13 %}">param1-1</a>
+    <a href="{% url 'p2:p6' 1 4 %}">parms6</a>
+{% endblock %}
+
+{% block css %}
+    {# block.super 表示将填坑之前已定义的内容直接拿过来   注解多行用{% comment %}{% endcomment %}#}
+    {{ block.super }}
+    <link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+

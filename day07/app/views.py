@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 from app.filters import ArticleFilter
 from app.models import Article, ArticleType
-from app.seriazlizer import ArticleSerializer, ArticleTypeSerializer
+from app.serializer import ArticleSerializer, ArticleTypeSerializer
 
 
 class ArticleView(viewsets.GenericViewSet,
@@ -85,8 +85,8 @@ class TypeView(viewsets.GenericViewSet,
 
     serializer_class = ArticleTypeSerializer
 
-    # 装饰器action装饰方法，装饰器中的detail的参数为False时，函数名将作为接口的一部分
-
+    # 装饰器action装饰方法，装饰器中的detail的参数为False时，表示的是xxx/action函数名将作为接口的一部分
+    #                                         True时，表示的是xxx/pk/action是否为单一
     # @action(detail=False) 等于@list_route()
     # @action(detail=True)  等于@detail_route()
 

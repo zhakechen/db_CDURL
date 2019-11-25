@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% macro f(name) %}
+    欢迎{{ name }}菜市场
+    {% endmacro %}
+    
+    <br/>
+    本市场提供以下水果<br/>
+    <ul>
+    {% for item in fruit_list %}
+        <li>{{ item | upper }}</li>
+    {% endfor %}
+    </ul>
+    {{ goods_dict.price }}
+    {{ a | safe }}
+
+  {{ f(name) }}
+
+    <a href="{{ url_for('hello',name='carmake',age=18) }}">mm</a>
+    <form action="{{ url_for('market',name='market_name') }}"></form>
+    <input type="text" name="market_name">
+    <input type="submit" value="提交">
+
+</body>
+</html>
